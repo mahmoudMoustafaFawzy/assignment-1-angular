@@ -1,0 +1,53 @@
+.line
+{
+  width:100px;
+  height:3px;
+  background-color: white;
+}
+.bg{
+  background-color: rgb(26,188,156);
+  color: white;
+}
+.endhome{
+  background-color: rgb(44,62,80);
+  color: white;
+}
+.endhome i {
+  width: 30px;
+  height: 30px;
+ }
+
+ .line1
+{
+  width:100px;
+  height:3px;
+  background-color: rgb(0, 0, 0);
+}
+
+.overlay{
+  height: 100%;
+  width: 100%;
+  top: 100%;
+  background-color: rgb(26,188,156);
+  opacity: 85%;
+  left: 0px;
+  transition: all 0.5s;
+}
+.card:hover .overlay {
+  top:0px
+}
+
+
+button{
+  background-color: #1abc9c;
+  width: 20% !important;
+}
+
+.btn:hover{
+  background-color: #1abc9c;
+}
+
+.copy {
+  background-color: rgb(26,37,47);
+  color:white
+}
